@@ -1,0 +1,22 @@
+@import url(../photo-grid/__item/photo-grid__item.css);
+@import url(../photo-grid/__item/_11/photo-grid__item_11.css);
+@import url(../photo-grid/__item/_10/photo-grid__item_10.css);
+@import url(../photo-grid/__item/_9/photo-grid__item_9.css);
+@import url(../photo-grid/__item/_8/photo-grid__item_8.css);
+@import url(../photo-grid/__item/_7/photo-grid__item_7.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_6.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_5.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_4.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_3.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_2.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_1.css);
+@import url(../photo-grid/__item/_6/photo-grid__item_0.css);
+
+.photo-grid {
+  position: absolute;
+  width: 1184px;
+  height: 671px;
+  left: 48px;
+  top: 1894px;
+  display:grid;
+}
