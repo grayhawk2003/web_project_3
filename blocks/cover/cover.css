@@ -1,0 +1,12 @@
+@import url(../cover/__background/cover__background.css);
+@import url(../cover/__overlay/cover__overlay.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+@import url(../cover/__title/cover__title.css);
+
+
+.cover {
+  border: 1px solid white;
+  width: 1184px;
+  height: 740px; 
+ 
+}

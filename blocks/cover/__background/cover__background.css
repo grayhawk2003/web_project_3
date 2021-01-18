@@ -1,0 +1,9 @@
+@import url(/images/__background.jpg);
+
+.cover__background {
+  background-image: url("/images/__background.jpg");
+  color: white;
+  z-index: 2;
+  height: 740px;
+  
+}

@@ -1,6 +1,9 @@
+@import url(../page/__wrapper/page__wrapper.css);
+
 .page {
   position: relative;
   width: 1280px;
   height: 7057px;
-  background: #2A2C2F;
+  background-color: #2A2C2F;
+  font-family: sans-serif, 'Inter';
 }

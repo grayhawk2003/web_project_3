@@ -1,15 +1,14 @@
-@import url(/blocks/header/__lang-link/header__lang-link.css);
 @import url(/blocks/header/__logo/header__logo.css);
-@import url(/blocks/header/__lang-link/_en/header__lang-link_en.css);
-@import url(/blocks/header/__lang-link/_es/header__lang-link_es.css);
+
 
 .header {
-  position: absolute;
-  width: 928px;
   height: 44px;
-  left: 48px;
-  top: 34px;  
   display: flex;
   justify-content: space-between;
   color: white;
+
+  /*rafael added these*/
+  min-height: 78px;
+  align-items: flex-end;
+  margin-left: 148px;
 }

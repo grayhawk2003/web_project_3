@@ -1,0 +1,8 @@
+@import url(../languages/__link/languages__link.css);
+@import url(../languages/__link/_active/languages__link_active.css);
+
+
+.languages {
+  margin-top: 46px;
+  margin-right: 148px;
+}
