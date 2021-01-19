@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   color: white;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
     
 }
