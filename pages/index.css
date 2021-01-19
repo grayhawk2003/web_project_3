@@ -1,4 +1,5 @@
 @import url(../styles/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/cover/cover.css);
@@ -12,4 +13,4 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/footer/footer.css);
-@import url(../vendor/fonts/fonts.css);
+

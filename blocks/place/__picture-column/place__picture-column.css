@@ -1,6 +1,4 @@
-.place__info-column {
-    margin-left: 40px;
-    margin-top: 30px;
+.place__picture-column {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
