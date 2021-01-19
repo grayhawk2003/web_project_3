@@ -1,3 +1,5 @@
 .footer__links {
     display: flex;
+    margin-top: 92px;
+    margin-left: 48px;
 }

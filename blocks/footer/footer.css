@@ -6,4 +6,8 @@
     display: flex;
     color: white;
     justify-content: space-between;
+    line-height: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
 }
