@@ -1,7 +1,36 @@
 .cover__link {
- 
-}
+  background-image: url(../../../images/__background.jpg);
+  background-size: cover;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.3;
+  /*top: 0;
+  bottom: 0;*/
+  
+  display: flex;
+  width: 100%;
+
+  }
+
 
 .cover__link::after {
+  background-color: #2A2C2f;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  /*position takes it out of the flex mode flow*/
+  position: absolute;
+  left: 0;
+  top: 0;
+
 
 }
+
+
+
+
+
+
+  

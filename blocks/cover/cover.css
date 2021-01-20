@@ -1,15 +1,16 @@
 
-@import url(../cover/__overlay/cover__overlay.css);
-@import url(../cover/__subtitle/cover__subtitle.css);
-@import url(../cover/__title/cover__title.css);
-@import url(../cover/__background/cover__background.css);
+@import url(../cover/__link/cover__link.css);
+@import url(../cover/__info/cover__info.css);
 @import url(../../images/__background.jpg);
+@import url(../cover/__text/cover__text.css);
+@import url(../cover/__text/_subtitle/cover__text_subtitle.css);
+@import url(../cover/__text/_title/cover__text_title.css);
+
 
 
 .cover {
   border: 1px solid white;
-  width: 1184px;
   height: 740px; 
   display: flex;
-  color: white;
+  margin: auto;
 }
