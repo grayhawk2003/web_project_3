@@ -2,13 +2,15 @@
 
 
 .header {
-  height: 44px;
+  max-width: 984px;
+  min-height: 44px;
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: space-between;
   color: white;
   /*rafael added these*/
-  min-height: 78px;
-  align-items: flex-end;
-  margin-left: 148px;
+  
+  align-items: flex-start;
+  margin: 34px 148px 0 148px;
+  
 }

@@ -4,9 +4,12 @@
 @import url(../lead/__caption/lead__caption.css);
 
 .lead {
-  width: 984px;
+  max-width: 984px;
   height: 1005px;
-  margin-bottom: 92px;
+  margin: 58px auto 92px;
   color: white;
   font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  
 }

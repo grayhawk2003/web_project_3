@@ -4,13 +4,12 @@
 @import url(../intro/__text/_body/intro__text_body.css);
 
 .intro {
-  width: 690px;
-  height: 569px;
+  max-width: 690px;
+  max-height: 569px;
   color: white;
-  margin-top: 0;
-  margin-left: 148px;
-  margin-bottom: 92px;
-  margin-right: 442px;
+  margin: 0 148px 92px;
   font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
   
 }

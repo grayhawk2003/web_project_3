@@ -1,15 +1,31 @@
-.page__wrapper {
+/*.page__wrapper {
     border: 1px solid red;
-    max-width: 1184px;
-    margin: auto;
+    max-width: 984px;
+    /*max-width: 1184px; is what Rafael had on the zoom*/
+    /*margin: auto;
     /*this below to say that we don't want it to be smaller than 320 but taking into account the 16px on each side margin for small smart phone*/
-    min-width: calc(320px - 32px);
+    /*min-width: calc(320px - 32px);
     width: calc(100%-96px);
 }
 /*this is the rule for breakpoint, everything above 768 will maintain everything that's stated above*/
+/*@media screen and (max-width: 1024px){
+    .page__wrapper {
+        width: calc(100%-96px);
+    }
+}
+
+
 @media screen and (max-width: 768px) {
   .page__wrapper {
       width: calc(100% - 48px);
 }
 
+
+@media screen and (max-width: 320px) {
+    .page__wrapper {
+        width: calc(100%-32px)
+        }
+    }
+}
+*/
 

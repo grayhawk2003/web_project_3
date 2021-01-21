@@ -2,7 +2,7 @@
 
 .page {
   position: relative;
-  height: 7057px;
+  max-width: 1280px;
   background-color: #2A2C2F;
   font-family: 'Inter', sans-serif;
 }
