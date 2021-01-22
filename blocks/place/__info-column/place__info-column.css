@@ -5,3 +5,23 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .place__info-column {
+      max-width: 456px;
+      
+    }
+  }
+    
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .place__info-column { 
+      max-width: 312px;  
+      
+    }
+  }
+    
+  @media screen and (max-width: 767px) {
+    .place__info-column {
+        max-width: 234px; 
+    }
+  }
