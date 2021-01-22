@@ -16,7 +16,7 @@
   
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .place__picture-column { 
-    max-width: 340px;  
+    max-width: 340px;
     margin-right: 28px;
   }
 }
