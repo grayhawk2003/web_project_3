@@ -2,12 +2,15 @@
 @import url(../../images/__background.jpg);
 @import url(../cover/__subtitle/cover__subtitle.css);
 @import url(../cover/__title/cover__title.css);
+@import url(../cover/__overlay/cover__overlay.css);
+@import url(../cover/__wrapper/cover__wrapper.css);
 
 
 .cover {
-  border: 1px solid white;
-  height: 740px; 
+  max-height: 740px; 
   display: flex;
   width: 100%;
+  flex-direction: column;
+  
   
 }

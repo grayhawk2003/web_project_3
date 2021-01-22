@@ -1,0 +1,9 @@
+.cover__wrapper {
+  background-image: url(../../../images/__background.jpg);
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 740px;
+  position: relative;
+}
