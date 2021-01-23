@@ -4,9 +4,10 @@
 @import url(./__link/place__link.css);
 @import url(./__website/place__website.css);
 @import url(./__info-column/place__info-column.css);
-@import url(./__website/_link/place__website_link.css);
+@import url(./__website/place__website-url.css);
 @import url(./__picture-column/place__picture-column.css);
-@import url(./__website/_url/place__website_url.css);
+@import url(./__website/place__website-link.css);
+
 
 
 .place {
