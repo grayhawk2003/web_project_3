@@ -3,7 +3,7 @@
 @import url(../footer/__links/footer__links.css);
 
 .footer {
-  height: 18px;
+  /*height: 18px;*/
   max-width: 1184px;
   display: flex;
   color: white;

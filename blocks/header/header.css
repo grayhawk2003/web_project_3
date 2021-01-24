@@ -3,8 +3,8 @@
 
 
 .header {
-  max-width: 984px;
-  min-height: 44px;
+  max-width: 1280px;
+  /*min-height: 44px;*/
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: space-between;

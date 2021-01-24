@@ -6,9 +6,19 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  margin: 283px auto 0;
+  
+  margin: auto auto 0 auto;
   z-index: 5;
   width: 656px;
-  height: 76px;
   
+  
+  }
+ 
+  
+  @media screen and (max-width: 767px) {
+    .cover__title {
+      font-size: 32px;
+      line-height: 35px;
+      width: 288px;
+    }
   }
