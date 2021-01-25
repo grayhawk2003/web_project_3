@@ -6,7 +6,8 @@
 @import url(./__info-column/place__info-column.css);
 @import url(./__website/place__website-url.css);
 @import url(./__picture-column/place__picture-column.css);
-@import url(./__website/place__website-link.css);
+/*@import url(./__website/place__website-link.css);*/
+
 
 
 
@@ -16,6 +17,37 @@
   color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  margin-top: 81px;
+  /*margin-top: 81px;*/
+  margin-bottom: 80px;
     
+}
+
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .place {
+    margin-bottom: 80px;
+  }
+
+  .place:nth-child(5) {
+    margin-bottom: 0px;
+  }  
+  
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place { 
+    margin-bottom: 73px;
+  }
+  .place:nth-child(5) {
+    margin-bottom: 0px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    margin-bottom: 48px;
+  }
+  .place:nth-child(5) {
+    margin-bottom: 0px;
+  } 
 }

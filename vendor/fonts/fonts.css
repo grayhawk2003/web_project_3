@@ -9,3 +9,9 @@
   font-family: 'Inter';
   font-weight: bold;
   }
+
+@font-face {
+  srf: url(/vendor/Inter-Black.woff);
+  font-family: 'Inter';
+  font-weight: 900;
+}  
