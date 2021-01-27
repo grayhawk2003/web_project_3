@@ -6,3 +6,9 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
 }
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .place__website-url {
+    margin-left: 16px;
+  }
+}

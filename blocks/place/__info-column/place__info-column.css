@@ -8,7 +8,7 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
     .place__info-column {
       max-width: 456px;
   
@@ -16,15 +16,16 @@
     }
   }
     
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
     .place__info-column { 
       max-width: 352px;  
       
     }
   }
     
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 767px) and (min-width: 320px) {
     .place__info-column {
         max-width: 288px; 
+        margin-left: 16px;
     }
   }
