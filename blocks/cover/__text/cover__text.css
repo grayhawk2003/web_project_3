@@ -1,0 +1,8 @@
+.cover__text {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}

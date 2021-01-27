@@ -2,7 +2,7 @@
   width: 484px;
   font-family: 'Inter', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 163%;
   margin-top: 0;
   margin-bottom: 27px;
@@ -15,7 +15,7 @@
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
   .place__paragraph {
     max-width: 456px;
-   
+    font-size: 18px;
   }
 }
     
