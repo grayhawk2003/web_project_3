@@ -17,13 +17,12 @@
   color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  /*margin-top: 81px;*/
   margin-bottom: 80px;
     
 }
 
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place {
     margin-bottom: 80px;
   }
@@ -34,7 +33,7 @@
   
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .place { 
     margin-bottom: 73px;
   }
@@ -43,7 +42,7 @@
   } 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .place {
     margin-bottom: 48px;
   }

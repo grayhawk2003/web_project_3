@@ -11,7 +11,7 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .intro__text {
     line-height: 30px;
   }

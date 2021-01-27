@@ -1,6 +1,6 @@
 .place__info-column {
   margin-left: 0;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -8,7 +8,7 @@
 
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .place__info-column {
       max-width: 456px;
   
@@ -16,14 +16,14 @@
     }
   }
     
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     .place__info-column { 
       max-width: 352px;  
       
     }
   }
     
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 320px) {
     .place__info-column {
         max-width: 288px; 
     }
