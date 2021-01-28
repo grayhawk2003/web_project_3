@@ -10,14 +10,13 @@
 
 .cover {
   max-width: 1280px;
-  /*height: 740px;*/
+  /*min-height: 740px; code review says no heights can be on blocks*/
   display: flex;
   flex-direction: column;
   margin: 0 auto 92px auto;
   padding: 0;
+  border: solid 1px blue;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .cover {
@@ -34,27 +33,6 @@
 }
 
 
-
-/*@media screen and (max-width: 1024px) {
-  .cover {
-    max-height: 640px;
-    margin: 0 auto 92px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    max-height: 480px;
-    margin: 0 auto 88px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    max-height: 320px;
-    margin: 0 auto 64px;
-  }
-}/*
 
 
 

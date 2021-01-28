@@ -7,7 +7,7 @@
   margin: auto;
   /*margin: 283px auto 0 auto;*/
   z-index: 10;
-  width: 656px;
+  /*width: 656px;*/
   
   }
 
@@ -33,5 +33,7 @@
       font-size: 32px;
       line-height: 35px;
       width: 288px;
+     
+    
     }
   }
