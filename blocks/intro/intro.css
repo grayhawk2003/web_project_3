@@ -10,8 +10,7 @@
   margin: 0 148px 92px;
   font-family: 'Inter', sans-serif;
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 @media screen and (max-width: 1024px) {

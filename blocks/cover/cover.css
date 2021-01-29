@@ -2,34 +2,26 @@
 @import url(../../images/__background.jpg);
 @import url(../cover/__subtitle/cover__subtitle.css);
 @import url(../cover/__title/cover__title.css);
-@import url(../cover/__overlay/cover__overlay.css);
-@import url(../cover/__wrapper/cover__wrapper.css);
 @import url(../cover/__text/cover__text.css);
-
-
 
 .cover {
   max-width: 1280px;
-  /*min-height: 740px; code review says no heights can be on blocks*/
   display: flex;
   flex-direction: column;
-  margin: 0 auto 92px auto;
+  margin: 0 48px 92px 48px;
   padding: 0;
-  border: solid 1px blue;
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    /*max-height: 480px;*/
-    margin: 0 auto 88px;
+    margin: 0 0 88px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    /*max-height: 200px;*/
-    margin: 0 auto 64px;
+    margin: 0 0 64px 0;
   }
 }
 
