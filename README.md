@@ -1,20 +1,16 @@
 # Project 3: From Portland to Portland
 
 ### Overview
-* Intro
-* Figma
-* Images
+* Most recent updates were made to project to improve the overall aesthetics with responsiveness on lower and intermiate resolutions. 
 
-**Intro**
+**Description**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US from Portland, ME to Portland, OR on bicycle.  It highlights 5 specific areas, as well as providing photographs from along the way.  The website is responsive and was made using the BEM methodology, coded with primarily HTML and CSS.  
 
 **Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+* [Link to the project on Github] https://grayhawk2003.github.io/web_project_3/
 
-**Images**
+**Summary**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+Throughout this challenging project, I have honed my skills with responsive CSS design, gridbox, and pseudo elements.
