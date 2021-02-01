@@ -24,6 +24,7 @@
   .intro {
     margin: 0 24px 88px;
     max-width: 720px;
+    /*in code review, you said this (720px) is the incorrect width at 768, but this looks like figma and is excatly is shown on figma*/
   }
 }
 
