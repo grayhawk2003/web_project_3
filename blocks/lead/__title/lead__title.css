@@ -1,7 +1,6 @@
 .lead__title {
   font-family: 'Inter', sans-serif;
-  /*width: 720px;*/
-  width: 80%;
+  width: 720px;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -21,7 +20,8 @@
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-    /*width: 288px;*/
+    width: 288px;
+
   }
 }  
 
