@@ -1,7 +1,6 @@
 .page {
   max-width: 1280px;
-  background-color: blue;
-  /*background-color: #2A2C2F;*/
+  background-color: #2A2C2F;
   font-family: 'Inter', sans-serif;
   margin: auto;
 }

@@ -1,14 +1,15 @@
 .cover__link {
   background-image: url(../../../images/__background.jpg);
-  min-height: 740px;
   width: 100%;
+  min-height: 740px;
   text-decoration: none;
   position: relative;
   margin: auto;
   display: flex;
   flex-direction: column;
   color: white;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   align-items: center;
   }
 
@@ -24,38 +25,38 @@
   }
   
   .cover__link:hover::before {
-    background-color: #2A2C2f;
     opacity: 0.8;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover__link {
       width: 100%;
       min-height: 640px;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover__link {
      width: 100%;
      min-height: 480px;
     }
   }
 
-
-  @media screen and (max-width: 450px) {
+  @media screen and (min-width: 451px) and (max-width: 767px) {
     .cover__link {
       width: 100%;
-      min-height: 280px;
-    }
+      min-height: 340px;  
   }
-  
-  @media screen and (max-width: 320px) {
+}
+
+
+  @media screen and (min-width: 320px) and (max-width: 450px) {
     .cover__link {
       width: 100%;
       min-height: 200px;
     }
   }
+  
   
 
 

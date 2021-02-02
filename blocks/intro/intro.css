@@ -5,7 +5,7 @@
 
 
 .intro {
-  max-width: 690px;
+  width: calc(100% - 590px);
   color: white;
   margin: 0 148px 92px;
   font-family: 'Inter', sans-serif;
@@ -13,25 +13,26 @@
   flex-direction: column; 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro {
-    margin: 0 48px 92px;
-    max-width: 690px;
+    margin-left: 48px;
+    width: calc(100% - 334px);
+    
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro {
     margin: 0 24px 88px;
-    max-width: 720px;
-    /*in code review, you said this (720px) is the incorrect width at 768, but this looks like figma and is excatly is shown on figma*/
+    width: calc(100% - 48px);
+
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .intro {
     margin: 0 16px 64px;
-    max-width: 288px;
+    width: calc(100% - 32px);
   }
 }
 
