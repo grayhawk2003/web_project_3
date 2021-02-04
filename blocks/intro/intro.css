@@ -4,7 +4,6 @@
 @import url(../intro/__subtitle/intro__subtitle.css);
 @import url(../intro/__span/intro__span.css);
 
-
 .intro {
   width: calc(100% - 590px);
   color: white;
@@ -17,8 +16,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro {
     margin-left: 48px;
-    width: calc(100% - 334px);
-    
+    width: calc(100% - 334px);   
   }
 }
 
@@ -26,7 +24,6 @@
   .intro {
     margin: 0 24px 88px;
     width: calc(100% - 48px);
-
   }
 }
 
